@@ -1,0 +1,17 @@
+{
+  "name": "quiz-api",
+  "version": "1.0.0",
+  "description": "A simple quiz backend using Express and SQLite",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.6.2",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  },
+  "keywords": ["quiz","express","sqlite"],
+  "author": "",
+  "license": "ISC"
+}
